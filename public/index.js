@@ -2,15 +2,15 @@ function Spa() {
 
 // firebase key
 const firebaseConfig = {
-  apiKey: "AIzaSyB_sR3uC0bp9UgXPx_W2DJL-ipOC38gyQ4",
-  authDomain: "badbank-50082.firebaseapp.com",
-  databaseURL: "https://badbank-50082-default-rtdb.firebaseio.com",
-  projectId: "badbank-50082",
-  storageBucket: "badbank-50082.appspot.com",
-  messagingSenderId: "5759003941",
-  appId: "1:5759003941:web:3b309f5b78a63d843efecc"
-
+  apiKey: "AIzaSyCtAtaBkGUffeC2mbLpgtdF4qWn0mug9ZI",
+  authDomain: "bankapp-92b84.firebaseapp.com",
+  databaseURL: "https://bankapp-92b84-default-rtdb.firebaseio.com",
+  projectId: "bankapp-92b84",
+  storageBucket: "bankapp-92b84.appspot.com",
+  messagingSenderId: "496662247579",
+  appId: "1:496662247579:web:5060ceacf1b7fa4a312e3e"
 };
+
 // Initialize Firebase
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
@@ -47,8 +47,8 @@ const setAll = (name, email, password, balance) => {
       </UserContext.Provider>      
     </HashRouter>
   );
-}
 
+  }
 ReactDOM.render(
   <Spa/>,
   document.getElementById('root')
